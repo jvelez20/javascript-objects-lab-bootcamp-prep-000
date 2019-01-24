@@ -48,7 +48,7 @@ describe('Objects', function() {
       expect(newObj['prop']).toBe(undefined)
     })
 
-    it('does not modify the original object (it is non-destructive)', function() {
+    console.log('does not modify the original object (it is non-destructive)', function() {
       var obj = { prop: 1 }
 
       deleteFromObjectByKey(obj, 'prop')
